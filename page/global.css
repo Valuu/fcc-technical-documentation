@@ -1,0 +1,20 @@
+@media ( min-width : 600px) {
+	#navbar {
+		position: fixed;
+		top: 0px;
+		height: 100%;
+		witdh: 300px;
+		border: solid;
+		overflow-y: auto;
+	}
+	#main-doc {
+		border: solid;
+		position: absolute;
+		top: 0px;
+		left: 200px;
+	}
+}
+
+#navbar .nav-link {
+	display: block;
+}
